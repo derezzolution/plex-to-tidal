@@ -1,0 +1,8 @@
+{
+    "plexServerUrl": "http://localhost:32400",
+    "plexToken": "YourTokenGoesHere",
+    "plexPlaylistKey": 9000,
+    "tidalClientId": "YourClientId",
+    "tidalClientSecret": "YourClientSecret"
+}
+
