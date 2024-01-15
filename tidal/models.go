@@ -51,3 +51,7 @@ type Metadata struct {
 type Track struct {
 	Resource Resource `json:"resource"`
 }
+
+type Playlist struct {
+	// TODO: Populate after we get a known-working response
+}

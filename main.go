@@ -50,4 +50,11 @@ func main() {
 		log.Fatalf("unable to lookup track: %s", err)
 	}
 	log.Println("track => ", track)
+
+	// Debugging: Try to create a new Tidal playlist
+	p, err := t.CreateNewPlaylist("the title of a new playlist")
+	if err != nil {
+		log.Fatalf("unable to create new playlist: %s", err)
+	}
+	log.Println("new playlist => ", p)
 }
